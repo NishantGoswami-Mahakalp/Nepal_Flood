@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+
+# Environment files and local overrides
+.env
+.env.*
+!.env.example
+*.local
+
+# Credentials, tokens, private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+credentials*.json
+service-account*.json
+secrets*.json
+.auth/
+.netrc
+.npmrc
+.yarnrc
+.pypirc
+
+# Build output
+dist/
+build/
+coverage/
+.vite/
+
+# Runtime data
+data/*
+!data/.gitkeep
+!data/documents/
+data/documents/*
+!data/documents/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
