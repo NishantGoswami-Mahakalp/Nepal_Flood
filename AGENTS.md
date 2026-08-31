@@ -6,11 +6,13 @@ This is an unfunded demonstration. Prefer the smallest maintainable implementati
 
 ## Before implementation
 
-1. Inspect the repository and existing dependencies.
-2. Propose a focused milestone and acceptance criteria.
-3. List files to be created or modified.
-4. Wait for approval before implementing a new milestone.
-5. Avoid destructive or unrelated changes.
+1. Read `docs/DECISIONS.md`, `docs/IMPLEMENTATION_SPEC.md`, and the active phase in `docs/VIBHA_AI_BUILD_GUIDE.md`.
+2. If MiniMax M3 is the coding model, follow `docs/MINIMAX_M3_DEVELOPMENT_PROMPT.md`.
+3. Inspect the repository and existing dependencies.
+4. Propose a focused milestone and acceptance criteria.
+5. List files to be created or modified.
+6. Wait for approval before implementing a new milestone.
+7. Avoid destructive or unrelated changes.
 
 ## Development rules
 

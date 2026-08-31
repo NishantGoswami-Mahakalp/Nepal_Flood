@@ -74,6 +74,8 @@ Only placeholder files may be committed inside that directory.
 
 - [Lean architecture](docs/ARCHITECTURE.md)
 - [Accepted architecture and product decisions](docs/DECISIONS.md)
+- [Exact application implementation specification](docs/IMPLEMENTATION_SPEC.md)
+- [MiniMax M3 development master prompt](docs/MINIMAX_M3_DEVELOPMENT_PROMPT.md)
 - [Vibha's step-by-step AI build guide](docs/VIBHA_AI_BUILD_GUIDE.md)
 - [Contribution and agent rules](AGENTS.md)
 

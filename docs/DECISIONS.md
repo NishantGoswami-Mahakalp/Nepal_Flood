@@ -37,7 +37,14 @@ The demo will use:
 
 Do not add Redis, BullMQ, PostgreSQL, S3, microservices, Kubernetes, or distributed workers during the demo unless the team explicitly changes this decision.
 
-### 3. MiniMax M3 is the initial LLM
+### 3. MiniMax M3 is the initial LLM and Vibha's coding model
+
+MiniMax M3 has two distinct roles:
+
+1. **Development role:** Vibha uses MiniMax M3 as the coding model that reads the repository guidance and implements one approved phase at a time.
+2. **Runtime role:** the finished application uses the available **MiniMax M3 API** for structured, evidence-backed claim extraction.
+
+The development role must follow `docs/MINIMAX_M3_DEVELOPMENT_PROMPT.md` and `docs/IMPLEMENTATION_SPEC.md`. The runtime role follows the safety and integration boundaries below. Neither role may improvise a heavier architecture or bypass deterministic validation.
 
 Use the available **MiniMax M3 API** as the only LLM provider for the demo.
 
