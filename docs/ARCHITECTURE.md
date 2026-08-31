@@ -13,6 +13,15 @@ This project is currently an unfunded demonstration. Its architecture should pro
 5. **Sensitive publication decisions require human review.**
 6. **The demo runs as one application deployment with one SQLite database.**
 
+## Accepted external services
+
+- **MiniMax M3** is the only initial LLM and is used only for structured, evidence-backed claim extraction.
+- **Firecrawl** is the first retrieval API and may fetch only explicitly approved source URLs.
+- **Exa** is deferred until the team demonstrates a need for open-web candidate discovery.
+- Exact API base URLs and request formats must be verified from the access available to the team rather than assumed.
+
+External services never write directly to SQLite. Firecrawl output is archived and hashed before extraction; MiniMax output is schema-validated and remains a candidate until deterministic checks and any required human review are complete.
+
 ## Proposed runtime
 
 ```text

@@ -73,6 +73,8 @@ Only placeholder files may be committed inside that directory.
 ## Documentation
 
 - [Lean architecture](docs/ARCHITECTURE.md)
+- [Accepted architecture and product decisions](docs/DECISIONS.md)
+- [Vibha's step-by-step AI build guide](docs/VIBHA_AI_BUILD_GUIDE.md)
 - [Contribution and agent rules](AGENTS.md)
 
 ## License

@@ -1,3 +1,6 @@
+# Hermes local workspace artifacts
+.hermes/
+
 # Dependencies
 node_modules/
 
